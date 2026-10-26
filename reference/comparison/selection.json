@@ -1,0 +1,22 @@
+{
+  "gain": 0.8,
+  "mean_validation_snr_db": 5.88762295653604,
+  "validation_recordings": 100,
+  "validation_mixtures": 300,
+  "candidates": 101,
+  "candidate_range": [
+    0.0,
+    1.0
+  ],
+  "candidate_step": 0.01,
+  "noise": "white",
+  "input_snrs_db": [
+    0,
+    5,
+    10
+  ],
+  "mixture_seed_phase": "alpha_validation",
+  "objective": "Arithmetic mean of individual validation reconstruction-SNR dB scores",
+  "policy": "One fixed gain for every sample, recording, noise type and input SNR; no test-time tuning.",
+  "candidate_csv_sha256": "7d6d5e03f84ef99d26dfce173d9b07d275976b0bd06e46057dfc3161b5ce7cb3"
+}

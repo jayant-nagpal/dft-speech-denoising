@@ -1,0 +1,11 @@
+{
+  "alpha": 0.9,
+  "test_recordings": 1000,
+  "mixtures": 6000,
+  "method_rows": 12000,
+  "selection_sha256": "1bff13b95a658ec47887f58733547d643b43ab5603239a133f6474cc5b20fda8",
+  "summary_sha256": "10eeb6ccbcd8e8b46207e5bed89764d6c9c6ef7c4552f79d537e02f5f38ddd31",
+  "example_sha256": "7dc5316afe5b426d100511c47940d5d1a9b5470afc3de8d1dedff660126b2c28",
+  "scope": "Frozen original pilot reproduced, not fresh unseen evaluation",
+  "uncertainty": "Utterance-bootstrap descriptive intervals conditional on two test speakers; not population-level confidence."
+}

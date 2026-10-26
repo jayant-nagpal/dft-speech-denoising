@@ -1,0 +1,31 @@
+{
+  "counts": {
+    "train": 1500,
+    "validation": 500,
+    "test": 1000
+  },
+  "speakers": {
+    "train": [
+      "george",
+      "lucas",
+      "theo"
+    ],
+    "validation": [
+      "yweweler"
+    ],
+    "test": [
+      "jackson",
+      "nicolas"
+    ]
+  },
+  "sample_rate_hz": 8000,
+  "duration_seconds": {
+    "min": 0.1435,
+    "mean": 0.43743433333333337,
+    "max": 2.28275
+  },
+  "dtypes": [
+    "int16"
+  ],
+  "note": "Original train split retained for provenance; classical processing fits no neural weights."
+}

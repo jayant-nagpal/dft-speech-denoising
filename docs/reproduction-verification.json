@@ -1,0 +1,61 @@
+{
+  "recorded_date": "2026-10-26",
+  "executed_by": "Author, through the documented commands; verifier output supplied in chat.",
+  "verification": {
+    "reference_files_verified": 13,
+    "experiment": {
+      "rows_compared": 12000,
+      "largest_absolute_difference": 0.0
+    },
+    "comparison": {
+      "rows_compared": 6000,
+      "largest_absolute_difference": 0.0
+    }
+  },
+  "saved_files_rechecked": {
+    "experiment": {
+      "manifest.csv": {
+        "sha256": "cb88974ea6a1c1de2870e7661cf881ab19869109847b1af3d8cfff277f56ac7a",
+        "identical_to_reference": true
+      },
+      "selection.json": {
+        "sha256": "1bff13b95a658ec47887f58733547d643b43ab5603239a133f6474cc5b20fda8",
+        "identical_to_reference": true
+      },
+      "summary.csv": {
+        "sha256": "10eeb6ccbcd8e8b46207e5bed89764d6c9c6ef7c4552f79d537e02f5f38ddd31",
+        "identical_to_reference": true
+      },
+      "per_utterance_results.csv": {
+        "sha256": "54a8141282176edbc1bde76467602efb12b86eb8ade1b8f0d6b0f74678c4616a",
+        "identical_to_reference": true
+      }
+    },
+    "comparison": {
+      "selection.json": {
+        "sha256": "4094a851a51db4627e084c801f1f977e940c16cb73524973a7105999f417e7a6",
+        "identical_to_reference": true
+      },
+      "validation-candidates.csv": {
+        "sha256": "7d6d5e03f84ef99d26dfce173d9b07d275976b0bd06e46057dfc3161b5ce7cb3",
+        "identical_to_reference": true
+      },
+      "comparison-summary.csv": {
+        "sha256": "7ca814ad5861c023144e649fc131199936ca43ac0c2586c5b318acd1e16d5002",
+        "identical_to_reference": true
+      },
+      "per-recording-comparison.csv": {
+        "sha256": "fd49871a4b7f301ddc3f673c4f2d6150d60a6195cfb407327e17f792b8bc5ea5",
+        "identical_to_reference": true
+      }
+    }
+  },
+  "dataset_manifest_identical_to_reference": true,
+  "saved_example_identical_to_reference": true,
+  "current_source_matches_recorded_identities": true,
+  "main_run": "results/experiments/cleaned-reproduction",
+  "comparison_run": "results/comparisons/global-gain-cleaned-reproduction",
+  "scope": "Exact checked numerical reproduction on the author system, not a new independent test or cross-platform guarantee.",
+  "presentation_revision": "The main-run source-history preserves the wording-only runner revision; numerical statements unchanged.",
+  "remaining": "Publication metadata/licence, repository release, appendix listings, abstract and final layout. Teaching-figure module was not part of this full-run verification."
+}

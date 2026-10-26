@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-26",
+  "numerical_functions_ast_matched": [
+    "stft",
+    "inverse_stft",
+    "load_recording",
+    "key_seed",
+    "create_mixture",
+    "estimate_gains",
+    "reconstruction_snr",
+    "verify_transforms",
+    "select_smoothing",
+    "save_csv",
+    "mean_ci"
+  ],
+  "normalization": "Documented function/constant renaming and docstrings only; numerical statements match original core.",
+  "synthetic_tests": {
+    "passed": 6,
+    "dataset_used": false
+  },
+  "command_help_checked": [
+    "data",
+    "experiment",
+    "comparison",
+    "experiment_results",
+    "comparison_results",
+    "teaching_figures",
+    "verify"
+  ],
+  "reference_files_verified": 13,
+  "full_cleaned_experiment_run": true,
+  "scope": "Original cleanup checks plus subsequent author-executed full numerical reproduction; source/output hashes rechecked without rerunning experiments.",
+  "clean_source_sha256": {
+    "speech_dft/__init__.py": "59f82a384e1b76f169e3bc89646df38099b745140fc6adab72b314220be6215b",
+    "speech_dft/comparison.py": "0f47604bdbf41c2fe65a162ebfffb845275113ffa6bb50c535d91058e36f8e5f",
+    "speech_dft/comparison_results.py": "59091fe53644b6f3a84a8f28689dc61bab64301953f755fb7a5223a1a3d505b8",
+    "speech_dft/core.py": "47d06cf8fe107e6b86a6ab9e6d4887ef868af27b408702bb8e0240a7d5bcfbea",
+    "speech_dft/data.py": "8135e2343c4702842b568280c0ab52c874d329c7161db5e94609a5fc42a3ec16",
+    "speech_dft/experiment.py": "4a6fb788a85e2b03d8640aaeb51911ea271a8e82b7122ba4158b50ec22506a12",
+    "speech_dft/experiment_results.py": "b09c14e0475fae11a320e6416ec77d248817911e5943ce5129c746e91a916653",
+    "speech_dft/paths.py": "5315b05a7a401af29047ea841547f27d8efafd5d448d5522332ac6968ca03f98",
+    "speech_dft/teaching_figures.py": "07d2b1076feb3700bfc4d8ee6c413cdd0863036d183db01885a4f45bee6c08fe",
+    "speech_dft/verify.py": "90fe5383999d7d7f9b20e9960659ae696c1576edc05052940a8ad3078b1b0f7c"
+  },
+  "setup_tests": {
+    "passed": 2,
+    "checks": [
+      "doctor version reporting with an empty temporary directory",
+      "run-identity version recording in a temporary directory"
+    ]
+  },
+  "total_unit_tests_passed": 8,
+  "fixes": [
+    "Experiment and comparison modules import SciPy directly for version reporting; no dependency on an incidental core-module import."
+  ],
+  "presentation_revision": {
+    "scope": "Two string constants only; AST equivalence checked after reversing those replacements.",
+    "before_runner_sha256": "c980d3c13c8b2fe98abf82be4ee22ed3f1f499931a24f071f7b380efb0ef12d3",
+    "after_runner_sha256": "4a6fb788a85e2b03d8640aaeb51911ea271a8e82b7122ba4158b50ec22506a12",
+    "original_run_source_preserved": "results/experiments/cleaned-reproduction/source-history/wording-cleanup/"
+  },
+  "full_reproduction_record": "docs/reproduction-verification.json"
+}

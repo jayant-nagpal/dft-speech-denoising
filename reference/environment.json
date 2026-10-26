@@ -1,0 +1,8 @@
+{
+  "python": "3.12.13",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "matplotlib": "3.11.2",
+  "core_sha256": "0f8b6e408508cb33be9333aa4c4e748f1ebf38830748e0692789124fc39a4409",
+  "runner_sha256": "60d8dbe4c4c16905e1f617a259dfae59215ef2fbad2f4438443a599f5aaa0893"
+}

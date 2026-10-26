@@ -1,0 +1,37 @@
+{
+  "description": "Historical results from the student-executed original code. Cleaned code has not been fully rerun.",
+  "original_run": "my-full-reproduction",
+  "source_mapping": {
+    "core.py": "core.py",
+    "classical.py": "experiment.py",
+    "compare_global_gain.py": "comparison.py",
+    "download_data.py": "data.py",
+    "teaching_figures.py": "teaching_figures.py",
+    "summarize_results.py": "experiment_results.py",
+    "summarize_global_gain.py": "comparison_results.py"
+  },
+  "original_code_sha256": {
+    "core.py": "0f8b6e408508cb33be9333aa4c4e748f1ebf38830748e0692789124fc39a4409",
+    "classical.py": "60d8dbe4c4c16905e1f617a259dfae59215ef2fbad2f4438443a599f5aaa0893",
+    "compare_global_gain.py": "85f2c342b080db0c267addc2a1a26693a5f313be33da07370389130beb0eb52a",
+    "download_data.py": "a8eacc6e44e7f86acdc58634726f4f21be29fca360b658aa7072c69c6e8b46c2",
+    "teaching_figures.py": "0b03f135ceb79100e5337fbfcea1dd8d58a512adc97ec0557c733b3ea0dd1ca9",
+    "summarize_results.py": "cf1745f449a71f6e38e5cd66594e2763961d6bfc89984f7f1df1f429e413143e",
+    "summarize_global_gain.py": "adef1c93bd17433282d1e06238597dd6c39ec183a12a749dca19f647d2ae654b"
+  },
+  "reference_files": {
+    "environment.json": "5d1c238c03b998bbd444a75b571bfa44f7e1839dc3c72f75022492092ba54b53",
+    "experiment/summary.csv": "10eeb6ccbcd8e8b46207e5bed89764d6c9c6ef7c4552f79d537e02f5f38ddd31",
+    "experiment/toy.json": "4c981caf37a5acc2e13841a0345cb18cb728c834e8d4e55c48a160aae94f3d54",
+    "experiment/manifest.csv": "cb88974ea6a1c1de2870e7661cf881ab19869109847b1af3d8cfff277f56ac7a",
+    "experiment/selection.json": "1bff13b95a658ec47887f58733547d643b43ab5603239a133f6474cc5b20fda8",
+    "experiment/per_utterance_results.csv": "54a8141282176edbc1bde76467602efb12b86eb8ade1b8f0d6b0f74678c4616a",
+    "experiment/inspection.json": "f44cffad2d10f326eda33901b9e0c969d34debbbe7740734be8015507bfec44c",
+    "experiment/evaluation.json": "97f254c358e4f14fff8a81f625eb5c06be46973b5793c7dfcc7b5ff6f3a29caf",
+    "comparison/per-recording-comparison.csv": "fd49871a4b7f301ddc3f673c4f2d6150d60a6195cfb407327e17f792b8bc5ea5",
+    "comparison/validation-candidates.csv": "7d6d5e03f84ef99d26dfce173d9b07d275976b0bd06e46057dfc3161b5ce7cb3",
+    "comparison/selection.json": "4094a851a51db4627e084c801f1f977e940c16cb73524973a7105999f417e7a6",
+    "comparison/comparison-summary.csv": "7ca814ad5861c023144e649fc131199936ca43ac0c2586c5b318acd1e16d5002",
+    "comparison/evaluation.json": "ec3fbc52429cb81dc33ca8254d1278f592d1e51f2935d1024ec78ced8f3ae4c9"
+  }
+}
